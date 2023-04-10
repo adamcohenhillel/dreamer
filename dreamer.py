@@ -224,7 +224,7 @@ def agent_loop(personality: str):
 
         except Exception as e:
             print(f"\33[31m\nError: {e}\33[0m")
-            print(activity["content"])
+            print(activity)
             running = False
             break
 
